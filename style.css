@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: #f0f0f0;
+}
+
+canvas {
+    width: auto;
+    height: 80vh;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: url('./fundo.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+
+#clockCanvas {
+    margin-top: 50px;
+    margin-right: 50px;
+
+
+}
